@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Occurance" representedClassName="Occurance" syncable="YES" codeGenerationType="class">
         <attribute name="block" optional="YES" attributeType="String"/>
         <attribute name="classNum" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -10,23 +10,13 @@
         <relationship name="paper" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Paper" inverseName="occurances" inverseEntity="Paper"/>
     </entity>
     <entity name="Paper" representedClassName="Paper" syncable="YES" codeGenerationType="class">
-        <attribute name="department" optional="YES" attributeType="String"/>
         <attribute name="name" attributeType="String"/>
-        <attribute name="notes" optional="YES" attributeType="String"/>
-        <attribute name="paperCode" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="semester" optional="YES" attributeType="String"/>
-        <attribute name="subjectCode" attributeType="String"/>
         <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <relationship name="occurances" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Occurance" inverseName="paper" inverseEntity="Occurance"/>
-        <uniquenessConstraints>
-            <uniquenessConstraint>
-                <constraint value="subjectCode"/>
-                <constraint value="paperCode"/>
-            </uniquenessConstraint>
-        </uniquenessConstraints>
     </entity>
     <elements>
         <element name="Occurance" positionX="-36" positionY="9" width="128" height="148"/>
-        <element name="Paper" positionX="-63" positionY="-18" width="128" height="163"/>
+        <element name="Paper" positionX="-63" positionY="-18" width="128" height="103"/>
     </elements>
 </model>

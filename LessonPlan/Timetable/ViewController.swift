@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     private final let days = Constants.DAYS
     private var currentDay = 0
+    private var tableViewDelegate: SetCVDelegates?
     
     //2d array, outer array for the day, inner for the occurances on that day
     var occurances = Array(repeating: [Occurance](), count: Constants.DAYS.count)
@@ -36,7 +37,7 @@ class ViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
+
         for day in 0..<days.count {
             let request: NSFetchRequest<Occurance> = Occurance.fetchRequest()
             request.predicate = NSPredicate(format: "day == %i", day)
@@ -54,6 +55,7 @@ class ViewController: UIViewController {
             occurances[day] = papers
         }
         
+        scrollCV.reloadData()
         
         //Get the current date/time
         let date = Date()
@@ -72,6 +74,7 @@ class ViewController: UIViewController {
             default: currentDay = 0
 
         }
+        
         
         
     }

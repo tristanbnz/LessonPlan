@@ -18,7 +18,6 @@
 		6251C0952466194F008F19C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6251C0942466194F008F19C1 /* Assets.xcassets */; };
 		6251C0982466194F008F19C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6251C0962466194F008F19C1 /* LaunchScreen.storyboard */; };
 		6251C0A22466404A008F19C1 /* 1stCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6251C0A12466404A008F19C1 /* 1stCollectionViewCell.swift */; };
-		6251C0A424664138008F19C1 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6251C0A324664138008F19C1 /* ListTableViewCell.swift */; };
 		6251C0A624664205008F19C1 /* LectureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6251C0A524664205008F19C1 /* LectureCollectionViewCell.swift */; };
 		6251C0A8246647EB008F19C1 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6251C0A7246647EB008F19C1 /* Protocols.swift */; };
 		626B734A24726A7F004BD607 /* AddNewOccuranceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626B734924726A7F004BD607 /* AddNewOccuranceTableViewCell.swift */; };
@@ -29,6 +28,14 @@
 		6271A4AD2466838400118B8A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6271A4AB2466838400118B8A /* Model.xcdatamodeld */; };
 		6271A4AF2466870E00118B8A /* PapersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6271A4AE2466870E00118B8A /* PapersViewController.swift */; };
 		629BA54A2475170100770EA7 /* SelectionMenuLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BA5492475170100770EA7 /* SelectionMenuLayout.swift */; };
+		62F3E8AD24AFD9C0007A3269 /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E89E24AFD9AA007A3269 /* Cabin-Bold.ttf */; };
+		62F3E8AE24AFD9C0007A3269 /* Cabin-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E89F24AFD9AA007A3269 /* Cabin-BoldItalic.ttf */; };
+		62F3E8AF24AFD9C0007A3269 /* Cabin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E8A324AFD9AB007A3269 /* Cabin-Italic.ttf */; };
+		62F3E8B024AFD9C0007A3269 /* Cabin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E8A024AFD9AA007A3269 /* Cabin-Medium.ttf */; };
+		62F3E8B124AFD9C0007A3269 /* Cabin-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E89D24AFD9AA007A3269 /* Cabin-MediumItalic.ttf */; };
+		62F3E8B224AFD9C0007A3269 /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E8A124AFD9AB007A3269 /* Cabin-Regular.ttf */; };
+		62F3E8B324AFD9C0007A3269 /* Cabin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E8A424AFD9AB007A3269 /* Cabin-SemiBold.ttf */; };
+		62F3E8B424AFD9C0007A3269 /* Cabin-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E8A224AFD9AB007A3269 /* Cabin-SemiBoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +52,6 @@
 		6251C0972466194F008F19C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6251C0992466194F008F19C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6251C0A12466404A008F19C1 /* 1stCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1stCollectionViewCell.swift; sourceTree = "<group>"; };
-		6251C0A324664138008F19C1 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		6251C0A524664205008F19C1 /* LectureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureCollectionViewCell.swift; sourceTree = "<group>"; };
 		6251C0A7246647EB008F19C1 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		626B734924726A7F004BD607 /* AddNewOccuranceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewOccuranceTableViewCell.swift; sourceTree = "<group>"; };
@@ -57,6 +63,14 @@
 		6271A4AE2466870E00118B8A /* PapersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapersViewController.swift; sourceTree = "<group>"; };
 		629BA5492475170100770EA7 /* SelectionMenuLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionMenuLayout.swift; sourceTree = "<group>"; };
 		62A2C1FC24AFC637000559F3 /* LessonPlan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LessonPlan.entitlements; sourceTree = "<group>"; };
+		62F3E89D24AFD9AA007A3269 /* Cabin-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-MediumItalic.ttf"; sourceTree = "<group>"; };
+		62F3E89E24AFD9AA007A3269 /* Cabin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Bold.ttf"; sourceTree = "<group>"; };
+		62F3E89F24AFD9AA007A3269 /* Cabin-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-BoldItalic.ttf"; sourceTree = "<group>"; };
+		62F3E8A024AFD9AA007A3269 /* Cabin-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Medium.ttf"; sourceTree = "<group>"; };
+		62F3E8A124AFD9AB007A3269 /* Cabin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Regular.ttf"; sourceTree = "<group>"; };
+		62F3E8A224AFD9AB007A3269 /* Cabin-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		62F3E8A324AFD9AB007A3269 /* Cabin-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Italic.ttf"; sourceTree = "<group>"; };
+		62F3E8A424AFD9AB007A3269 /* Cabin-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,17 +96,9 @@
 			children = (
 				6251C08F2466194A008F19C1 /* ViewController.swift */,
 				6251C0A12466404A008F19C1 /* 1stCollectionViewCell.swift */,
-				6251C0A324664138008F19C1 /* ListTableViewCell.swift */,
 				6251C0A524664205008F19C1 /* LectureCollectionViewCell.swift */,
 			);
 			path = Timetable;
-			sourceTree = "<group>";
-		};
-		623595412477AE400067DCBC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		6251B1B0246D20B300D560CF /* PapersVC */ = {
@@ -130,8 +136,8 @@
 		6251C08A2466194A008F19C1 /* LessonPlan */ = {
 			isa = PBXGroup;
 			children = (
+				62F3E89C24AFD996007A3269 /* Fonts */,
 				62A2C1FC24AFC637000559F3 /* LessonPlan.entitlements */,
-				623595412477AE400067DCBC /* Model */,
 				620C71E324766FE300C76DA2 /* Timetable */,
 				626B734F24727337004BD607 /* Supporting Files */,
 				6251B1B0246D20B300D560CF /* PapersVC */,
@@ -155,6 +161,21 @@
 				6251C0A7246647EB008F19C1 /* Protocols.swift */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62F3E89C24AFD996007A3269 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				62F3E89E24AFD9AA007A3269 /* Cabin-Bold.ttf */,
+				62F3E89F24AFD9AA007A3269 /* Cabin-BoldItalic.ttf */,
+				62F3E8A324AFD9AB007A3269 /* Cabin-Italic.ttf */,
+				62F3E8A024AFD9AA007A3269 /* Cabin-Medium.ttf */,
+				62F3E89D24AFD9AA007A3269 /* Cabin-MediumItalic.ttf */,
+				62F3E8A124AFD9AB007A3269 /* Cabin-Regular.ttf */,
+				62F3E8A424AFD9AB007A3269 /* Cabin-SemiBold.ttf */,
+				62F3E8A224AFD9AB007A3269 /* Cabin-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,9 +237,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6251C0982466194F008F19C1 /* LaunchScreen.storyboard in Resources */,
+				62F3E8B124AFD9C0007A3269 /* Cabin-MediumItalic.ttf in Resources */,
 				6251C0952466194F008F19C1 /* Assets.xcassets in Resources */,
 				626B7351247273B3004BD607 /* UniSelectionOptions.json in Resources */,
+				62F3E8AE24AFD9C0007A3269 /* Cabin-BoldItalic.ttf in Resources */,
+				62F3E8B224AFD9C0007A3269 /* Cabin-Regular.ttf in Resources */,
+				62F3E8B324AFD9C0007A3269 /* Cabin-SemiBold.ttf in Resources */,
+				62F3E8B424AFD9C0007A3269 /* Cabin-SemiBoldItalic.ttf in Resources */,
 				6251C0932466194A008F19C1 /* Main.storyboard in Resources */,
+				62F3E8AD24AFD9C0007A3269 /* Cabin-Bold.ttf in Resources */,
+				62F3E8AF24AFD9C0007A3269 /* Cabin-Italic.ttf in Resources */,
+				62F3E8B024AFD9C0007A3269 /* Cabin-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +274,6 @@
 				6251B1B2246D239B00D560CF /* PapersTableViewCell.swift in Sources */,
 				6251C08E2466194A008F19C1 /* SceneDelegate.swift in Sources */,
 				6271A4AF2466870E00118B8A /* PapersViewController.swift in Sources */,
-				6251C0A424664138008F19C1 /* ListTableViewCell.swift in Sources */,
 				6251C0A8246647EB008F19C1 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

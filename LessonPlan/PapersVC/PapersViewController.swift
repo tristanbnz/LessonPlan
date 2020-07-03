@@ -47,7 +47,7 @@ class PapersViewController: UIViewController {
         //Create the object to save
         let paper = Paper(context: context)
         
-        paper.subjectCode = paperName
+//        paper.subjectCode = paperName
         
         appD.saveContext()
     }
@@ -83,7 +83,7 @@ extension PapersViewController: UITableViewDataSource, UITableViewDelegate {
             let cell = tableView.dequeueReusableCell(withIdentifier: "paperCode", for: indexPath) as! PapersTableViewCell
             
             if let paperArray = papers {
-                cell.paperCode.text = paperArray[indexPath.row].subjectCode
+                cell.paperCode.text = paperArray[indexPath.row].name
             }
             
             return cell

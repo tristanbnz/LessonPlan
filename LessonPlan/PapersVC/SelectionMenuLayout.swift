@@ -18,14 +18,4 @@ class SelectionMenuLayout: UICollectionViewLayout {
         //Width and height of entire content views content
         return CGSize(width: 500, height: 200)
     }
-    
-//    override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
-//        //return layout attributes inside given rectangle
-//        //return as array of uicolviewlayoutattributes
-//    }
-//    
-//    override func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
-//        //on demand layout info to col view
-//    }
-    
 }

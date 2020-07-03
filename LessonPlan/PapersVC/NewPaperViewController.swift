@@ -12,25 +12,24 @@ import CoreData
 class NewPaperViewController: UIViewController {
     
     @IBOutlet weak var paperNameTextBox: UITextField!
-    @IBOutlet weak var paperCodeTextBox: UITextField!
     @IBOutlet weak var occurancesTableView: UITableView!
     @IBOutlet weak var navBar: UINavigationItem!
     
-    @IBAction func paperCodeEditingChanged(_ sender: Any) {
-        
-        if (paperCodeTextBox.text == "") {
-            
-            paperCodeTextBox.backgroundColor = UIColor.red
-            paper?.subjectCode = ""
-            
-            
-        } else {
-            //TODO: Check input and split into subject code and paper code using REGEX
-            paper?.subjectCode = paperCodeTextBox.text
-        }
-        
-    }
-    
+//    @IBAction func paperCodeEditingChanged(_ sender: Any) {
+//
+//        if (paperCodeTextBox.text == "") {
+//
+//            paperCodeTextBox.backgroundColor = UIColor.red
+//            paper?.subjectCode = ""
+//
+//
+//        } else {
+//            //TODO: Check input and split into subject code and paper code using REGEX
+//            paper?.subjectCode = paperCodeTextBox.text
+//        }
+//
+//    }
+//
     @IBAction func paperNameEditingChanged(_ sender: Any) {
         if (paperNameTextBox.text == "") {
             
@@ -86,18 +85,18 @@ class NewPaperViewController: UIViewController {
     
     @objc private func savePaper() {
 //        let readyForInsert = false
-        print("saving")
+//        print("saving")
 //        guard let paperToInsert = paper else {
 //            print("Caught by guard")
 //            return
 //        }
-        //Check info has been filled in
-        if (paperCodeTextBox.text == "") {
+//        //Check info has been filled in
+//        if (paperCodeTextBox.text == "") {
+//
+//            paperCodeTextBox.backgroundColor = UIColor.red
 
-            paperCodeTextBox.backgroundColor = UIColor.red
 
-
-        } else if (paperNameTextBox.text == "") {
+        if (paperNameTextBox.text == "") {
 
             paperNameTextBox.backgroundColor = UIColor.red
 
