@@ -6,6 +6,7 @@
         <attribute name="day" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="floor" optional="YES" attributeType="String"/>
         <attribute name="length" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
         <attribute name="time" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <relationship name="paper" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Paper" inverseName="occurances" inverseEntity="Paper"/>
     </entity>
@@ -16,7 +17,7 @@
         <relationship name="occurances" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Occurance" inverseName="paper" inverseEntity="Occurance"/>
     </entity>
     <elements>
-        <element name="Occurance" positionX="-36" positionY="9" width="128" height="148"/>
+        <element name="Occurance" positionX="-36" positionY="9" width="128" height="163"/>
         <element name="Paper" positionX="-63" positionY="-18" width="128" height="103"/>
     </elements>
 </model>

@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     private final let days = Constants.DAYS
     private var currentDay = 0
     private var tableViewDelegate: SetCVDelegates?
-    
+        
     //2d array, outer array for the day, inner for the occurances on that day
     var occurances = Array(repeating: [Occurance](), count: Constants.DAYS.count)
 
@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         scrollCV.delegate = self
         scrollCV.dataSource = self
         
+        navigationController?.navigationBar.prefersLargeTitles = true        
     }
     
     override func viewDidLayoutSubviews() {
@@ -71,6 +72,8 @@ class ViewController: UIViewController {
             case("Wed"): currentDay = 2
             case("Thu"): currentDay = 3
             case("Fri"): currentDay = 4
+        case("Sat"): currentDay = 5
+        case("Sun"): currentDay = 6
             default: currentDay = 0
 
         }
@@ -93,7 +96,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, 
 
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! _stCollectionViewCell
             cell.setTableViewOptions(delegate: self, row: indexPath.row)
-            cell.dayLabel.text = days[indexPath.row]
+//            cell.dayLabel.text = days[indexPath.row]
             return cell
     }
     
@@ -114,9 +117,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "listCell", for: indexPath)
-        print(occurances[tableView.tag][indexPath.row])
-        cell.textLabel?.text = occurances[tableView.tag][indexPath.row].paper?.name
+        let cell = tableView.dequeueReusableCell(withIdentifier: "listCell", for: indexPath) as! OccuranceTableViewCell
+        cell.paperNameLabel.text = occurances[tableView.tag][indexPath.row].paper?.name
         return cell
     }
     

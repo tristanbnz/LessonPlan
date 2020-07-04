@@ -18,6 +18,10 @@ enum Constants {
     
 }
 
+enum Colours {
+//    static let BACKGROUND = 
+}
+
 enum University_Waikato {
     
     static let rooms = ["A" : ["G", "1", "2"],

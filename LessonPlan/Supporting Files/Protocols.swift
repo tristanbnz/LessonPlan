@@ -22,3 +22,7 @@ protocol SetTVDelegates {
     func setTableViewOptions(delegate: UITableViewDataSource & UITableViewDelegate, row: Int)
     
 }
+
+protocol SetNavBarTitle {
+    func setTitle(delegate: ViewController)
+}

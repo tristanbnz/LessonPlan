@@ -28,6 +28,7 @@
 		6271A4AD2466838400118B8A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6271A4AB2466838400118B8A /* Model.xcdatamodeld */; };
 		6271A4AF2466870E00118B8A /* PapersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6271A4AE2466870E00118B8A /* PapersViewController.swift */; };
 		629BA54A2475170100770EA7 /* SelectionMenuLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629BA5492475170100770EA7 /* SelectionMenuLayout.swift */; };
+		62BA9C2E24B06AA000DC05B6 /* OccuranceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BA9C2D24B06AA000DC05B6 /* OccuranceTableViewCell.swift */; };
 		62F3E8AD24AFD9C0007A3269 /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E89E24AFD9AA007A3269 /* Cabin-Bold.ttf */; };
 		62F3E8AE24AFD9C0007A3269 /* Cabin-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E89F24AFD9AA007A3269 /* Cabin-BoldItalic.ttf */; };
 		62F3E8AF24AFD9C0007A3269 /* Cabin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62F3E8A324AFD9AB007A3269 /* Cabin-Italic.ttf */; };
@@ -63,6 +64,7 @@
 		6271A4AE2466870E00118B8A /* PapersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapersViewController.swift; sourceTree = "<group>"; };
 		629BA5492475170100770EA7 /* SelectionMenuLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionMenuLayout.swift; sourceTree = "<group>"; };
 		62A2C1FC24AFC637000559F3 /* LessonPlan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LessonPlan.entitlements; sourceTree = "<group>"; };
+		62BA9C2D24B06AA000DC05B6 /* OccuranceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OccuranceTableViewCell.swift; sourceTree = "<group>"; };
 		62F3E89D24AFD9AA007A3269 /* Cabin-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-MediumItalic.ttf"; sourceTree = "<group>"; };
 		62F3E89E24AFD9AA007A3269 /* Cabin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Bold.ttf"; sourceTree = "<group>"; };
 		62F3E89F24AFD9AA007A3269 /* Cabin-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				6251C08F2466194A008F19C1 /* ViewController.swift */,
 				6251C0A12466404A008F19C1 /* 1stCollectionViewCell.swift */,
 				6251C0A524664205008F19C1 /* LectureCollectionViewCell.swift */,
+				62BA9C2D24B06AA000DC05B6 /* OccuranceTableViewCell.swift */,
 			);
 			path = Timetable;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				626B734C24726AA3004BD607 /* PaperOccuranceCellTableViewCell.swift in Sources */,
 				6271A4AD2466838400118B8A /* Model.xcdatamodeld in Sources */,
 				6251C08C2466194A008F19C1 /* AppDelegate.swift in Sources */,
+				62BA9C2E24B06AA000DC05B6 /* OccuranceTableViewCell.swift in Sources */,
 				6251B1B2246D239B00D560CF /* PapersTableViewCell.swift in Sources */,
 				6251C08E2466194A008F19C1 /* SceneDelegate.swift in Sources */,
 				6271A4AF2466870E00118B8A /* PapersViewController.swift in Sources */,
